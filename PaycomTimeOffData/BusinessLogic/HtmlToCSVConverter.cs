@@ -106,7 +106,9 @@ namespace PaycomTimeOffData.BusinessLogic
                                 //{
                                 //    recordsTemp.FinalMessage = "Leave for the second half of the day";
                                 //}
-                                recordsTemp.FinalMessage = "Leave for "+ TimeDuration + " hours starting from "+ td2Text + ".";
+
+                                //recordsTemp.FinalMessage = "Leave for "+ TimeDuration + " hours starting from "+ td2Text + ".";
+                                recordsTemp.FinalMessage = "Leave for " + text2 + " starting from " + td2Text + ".";
                             }
                             else
                             {
@@ -143,7 +145,7 @@ namespace PaycomTimeOffData.BusinessLogic
 
             if (!string.IsNullOrEmpty(connectionString))
             {
-                WebDriverHandler.CreateLog(FilePath, "Calling the Save Query to insert data into Table");
+                WebDriverHandler.CreateLog(FilePath, "Calling the Save Query to insert data into Table at " + DateTime.UtcNow);
                 string insertQuery = "INSERT INTO [dbo].[aarc_Daily_Notifications](Name,DisplayName, Userid, LeaveType,LeaveHours,OfficeStartTime,Message, FilterDate) VALUES (@Name,@DisplayName, @UserId, @LeaveType,@LeaveHours,@OfficeStartTime,@Message, GETUTCDATE())";
                 using (var sqlConnection = new SqlConnection(connectionString))
                 {
@@ -170,7 +172,7 @@ namespace PaycomTimeOffData.BusinessLogic
         {
             if (!string.IsNullOrEmpty(connectionString))
             {
-                WebDriverHandler.CreateLog(FilePath, "Calling the Truncate Table");
+                WebDriverHandler.CreateLog(FilePath, "Calling the Truncate Table at " + DateTime.UtcNow);
                 string insertQuery = "TRUNCATE TABLE [dbo].[aarc_Daily_Notifications]";
                 using (var sqlConnection = new SqlConnection(connectionString))
                 {

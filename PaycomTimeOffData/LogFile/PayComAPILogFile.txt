@@ -1,0 +1,39 @@
+
+Calling the Launch Browser  17/01/2025 4:41:39 AM
+session not created: This version of ChromeDriver only supports Chrome version 132
+Current browser version is 131.0.6778.265 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+
+Calling the Launch Browser  17/01/2025 4:44:55 AM
+Calling the LogIn Method
+Calling the Truncate Table
+Calling the Save Query to insert data into Table
+
+Calling the Launch Browser at  17/01/2025 4:48:19 AM
+Calling the LogIn Method
+Calling the Truncate Table
+Calling the Save Query to insert data into Table
+
+Calling the Launch Browser at 17/01/2025 5:07:40 AM
+Calling the LogIn Method at 17/01/2025 5:07:46 AM
+Calling the Truncate Table at 17/01/2025 5:08:00 AM
+Calling the Save Query to insert data into Table at 17/01/2025 5:08:00 AM
+
+Calling the Launch Browser at 17/01/2025 6:46:08 AM
+Calling the LogIn Method at 17/01/2025 6:46:14 AM
+Calling the Truncate Table at 17/01/2025 6:46:29 AM
+Calling the Save Query to insert data into Table at 17/01/2025 6:46:30 AM
+
+Calling the Launch Browser at 17/01/2025 6:47:34 AM
+Calling the LogIn Method at 17/01/2025 6:47:40 AM
+Calling the Truncate Table at 17/01/2025 6:47:53 AM
+Calling the Save Query to insert data into Table at 17/01/2025 6:47:53 AM
+
+Calling the Launch Browser at 17/01/2025 6:49:35 AM
+Calling the LogIn Method at 17/01/2025 6:49:41 AM
+Calling the Truncate Table at 17/01/2025 6:49:57 AM
+Calling the Save Query to insert data into Table at 17/01/2025 6:49:57 AM
+
+Calling the Launch Browser at 17/01/2025 7:18:26 AM
+Calling the LogIn Method at 17/01/2025 7:18:34 AM
+Calling the Truncate Table at 17/01/2025 7:18:47 AM
+Calling the Save Query to insert data into Table at 17/01/2025 7:18:47 AM

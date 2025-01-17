@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaycomTimeOffData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1a6fc205a8412a499768e7d586b8391fc4623b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaycomTimeOffData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaycomTimeOffData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

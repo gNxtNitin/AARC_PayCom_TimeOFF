@@ -9,6 +9,7 @@ using SeleniumExtras.WaitHelpers;
 using System.Diagnostics;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+using WebDriverManager.Helpers;
 
 namespace PaycomTimeOffData.BusinessLogic
 {
@@ -44,12 +45,12 @@ namespace PaycomTimeOffData.BusinessLogic
             switch (browser)
             {
                 case Browsers.ChromeBrowser:
-                    new DriverManager().SetUpDriver(new ChromeConfig());
+                    new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
                     webdriver = GetChromeInstance(userDataDir, profile);
 
                     break;
                 case Browsers.EdgeBrowser:
-                    new DriverManager().SetUpDriver(new EdgeConfig());
+                    new DriverManager().SetUpDriver(new EdgeConfig(), VersionResolveStrategy.MatchingBrowser);
                     EdgeOptions edgeOptions = new EdgeOptions();
                     webdriver = GetEdgeInstance(userDataDir, profile);
                     break;

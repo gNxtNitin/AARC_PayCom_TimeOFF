@@ -12,7 +12,8 @@ namespace PaycomTimeOffData
             try
             {
                 FilePath = config["LogInSecret:LogFilePath"];
-                WebDriverHandler.CreateLog(FilePath, "Calling the Launch Browser");
+                WebDriverHandler.CreateLog(FilePath, "");
+                WebDriverHandler.CreateLog(FilePath, "Calling the Launch Browser at "+ DateTime.UtcNow);
                 string userDataDir = config["UserDataDir:Chrome:Path"];
                 string userProfile = config["UserDataDir:Chrome:Profile"];
                 WebDriverHandler.LaunchBrowser(Browsers.ChromeBrowser, url, userDataDir, userProfile);
@@ -47,7 +48,7 @@ namespace PaycomTimeOffData
         {
             try
             {
-                WebDriverHandler.CreateLog(FilePath, "Calling the LogIn Method");
+                WebDriverHandler.CreateLog(FilePath, "Calling the LogIn Method at " + DateTime.UtcNow);
                 WebDriverHandler.PopulateTextInput(ElementSelectors.CLIENT_CODE_INPUT, clientCode);
                 WebDriverHandler.PopulateTextInput(ElementSelectors.CLIENT_USERNAME_INPUT, userName);
                 WebDriverHandler.PopulateTextInput(ElementSelectors.CLIENT_PASSWORD_INPUT, password);

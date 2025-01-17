@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTL05\\source\\repos\\PaycomTimeOffData\\PaycomTimeOffData\\PaycomTimeOffData.csproj": {}
+    "C:\\Users\\DTL05\\source\\repos\\AARC_PayCom_TimeOFF\\PaycomTimeOffData\\PaycomTimeOffData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTL05\\source\\repos\\PaycomTimeOffData\\PaycomTimeOffData\\PaycomTimeOffData.csproj": {
+    "C:\\Users\\DTL05\\source\\repos\\AARC_PayCom_TimeOFF\\PaycomTimeOffData\\PaycomTimeOffData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTL05\\source\\repos\\PaycomTimeOffData\\PaycomTimeOffData\\PaycomTimeOffData.csproj",
+        "projectUniqueName": "C:\\Users\\DTL05\\source\\repos\\AARC_PayCom_TimeOFF\\PaycomTimeOffData\\PaycomTimeOffData.csproj",
         "projectName": "PaycomTimeOffData",
-        "projectPath": "C:\\Users\\DTL05\\source\\repos\\PaycomTimeOffData\\PaycomTimeOffData\\PaycomTimeOffData.csproj",
+        "projectPath": "C:\\Users\\DTL05\\source\\repos\\AARC_PayCom_TimeOFF\\PaycomTimeOffData\\PaycomTimeOffData.csproj",
         "packagesPath": "C:\\Users\\DTL05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTL05\\source\\repos\\PaycomTimeOffData\\PaycomTimeOffData\\obj\\",
+        "outputPath": "C:\\Users\\DTL05\\source\\repos\\AARC_PayCom_TimeOFF\\PaycomTimeOffData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
