@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/
+/.vs/AgencyAdmins/FileContentIndex/729abf9d-e295-42d9-b526-7c2b482eb1f0.vsidx
+/.vs/AgencyAdmins/FileContentIndex/6fa231c0-34df-43e4-a42b-75f184eac17d.vsidx
+/PaycomTimeOffData/.vs/PaycomTimeOffData/FileContentIndex/381c9b9f-5351-4359-a5de-f7810a5ccc81.vsidx
